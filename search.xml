@@ -3,21 +3,6 @@
   
     
     <entry>
-      <title><![CDATA[山东专升本知识点整理]]></title>
-      <url>/2016/07/16/about/</url>
-      <content type="html"><![CDATA[<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><pre><code>山东专升本知识点整理 是一个免费的专升本学习工具，旨在为专升本考生提供一个友好的wiki，持续更新，请多加关注！
-</code></pre>]]></content>
-      
-        <categories>
-            
-            <category> 关于 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[函数、极限 、连续]]></title>
       <url>/2016/07/16/%E9%AB%98%E6%95%B0%E7%AC%AC%E4%B8%80%E7%AB%A0/</url>
       <content type="html"><![CDATA[<h2 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h2><h3 id="函数的特性"><a href="#函数的特性" class="headerlink" title="函数的特性"></a>函数的特性</h3><p> 单调性<br> 奇偶性<br> 有界性<br> 周期性</p>
@@ -39,6 +24,21 @@
         <categories>
             
             <category> Docs </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[山东专升本知识点整理]]></title>
+      <url>/2016/07/16/about/</url>
+      <content type="html"><![CDATA[<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><pre><code>山东专升本知识点整理 是一个免费的专升本学习工具，旨在为专升本考生提供一个友好的wiki，持续更新，请多加关注！
+</code></pre>]]></content>
+      
+        <categories>
+            
+            <category> 关于 </category>
             
         </categories>
         

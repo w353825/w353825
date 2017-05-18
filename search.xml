@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title><![CDATA[山东专升本知识点整理]]></title>
+      <url>/2016/07/16/about/</url>
+      <content type="html"><![CDATA[<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><pre><code>山东专升本知识点整理 是一个免费的专升本学习工具，旨在为专升本考生提供一个友好的wiki，持续更新，请多加关注！
+</code></pre>]]></content>
+      
+        <categories>
+            
+            <category> 关于 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[函数、极限 、连续]]></title>
+      <url>/2016/07/16/%E9%AB%98%E6%95%B0%E7%AC%AC%E4%B8%80%E7%AB%A0/</url>
+      <content type="html"><![CDATA[<h2 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h2><h3 id="函数的特性"><a href="#函数的特性" class="headerlink" title="函数的特性"></a>函数的特性</h3><p> 单调性<br> 奇偶性<br> 有界性<br> 周期性</p>
+<h3 id="反函数"><a href="#反函数" class="headerlink" title="反函数"></a>反函数</h3><h4 id="反函数的性质"><a href="#反函数的性质" class="headerlink" title="反函数的性质"></a>反函数的性质</h4><p> 反函数与原函数在图形上关于y=x对称<br> 反函数保持单调性和连续性</p>
+<h3 id="函数的四则运算和复合运算"><a href="#函数的四则运算和复合运算" class="headerlink" title="函数的四则运算和复合运算"></a>函数的四则运算和复合运算</h3><h4 id="四则运算"><a href="#四则运算" class="headerlink" title="四则运算"></a>四则运算</h4><p> 运算后的定义域</p>
+<h4 id="复合运算"><a href="#复合运算" class="headerlink" title="复合运算"></a>复合运算</h4><h3 id="基本初等函数"><a href="#基本初等函数" class="headerlink" title="基本初等函数"></a>基本初等函数</h3><p> 幂函数<br> 指数函数<br> 对数函数<br> 三角函数<br> 反三角函数</p>
+<h4 id="初等函数"><a href="#初等函数" class="headerlink" title="初等函数"></a>初等函数</h4><p> 分段函数一般不是初等函数，不是初等函数的函数统称为非初等函数</p>
+<h3 id="做题技巧"><a href="#做题技巧" class="headerlink" title="做题技巧"></a>做题技巧</h3><div class="alert alert-danger"><i class="fa fa-bug"></i>  函数求定义域问题做题原则：
+1.分母不为零 
+2.偶次根号下不为负 
+3.对数的真数大于零 
+4.三角函数与反三角函数</div>
+<h2 id="极限"><a href="#极限" class="headerlink" title="极限"></a>极限</h2><h3 id="数列的极限"><a href="#数列的极限" class="headerlink" title="数列的极限"></a>数列的极限</h3><h4 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h4><p> 如果数列没有极限，则数列是发散的，数列发散的情况一般为震荡和无穷</p>
+<h4 id="性质"><a href="#性质" class="headerlink" title="性质"></a>性质</h4><p> 有界性<br> 保号性</p>
+<h3 id="函数的极限"><a href="#函数的极限" class="headerlink" title="函数的极限"></a>函数的极限</h3><h4 id="定义-1"><a href="#定义-1" class="headerlink" title="定义"></a>定义</h4><p> 左右极限都存在，且想等</p>
+<h4 id="无穷大和无穷小"><a href="#无穷大和无穷小" class="headerlink" title="无穷大和无穷小"></a>无穷大和无穷小</h4><p> 无穷大量一定是无界函数， 无界函数不一定是无穷大量<br> 无穷大和无穷小为倒数关系</p>
+<h4 id="无穷小的比较"><a href="#无穷小的比较" class="headerlink" title="无穷小的比较"></a>无穷小的比较</h4>]]></content>
+      
+        <categories>
+            
+            <category> Docs </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+  
+  
+</search>

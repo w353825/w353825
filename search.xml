@@ -3,6 +3,21 @@
   
     
     <entry>
+      <title><![CDATA[山东专升本知识点整理]]></title>
+      <url>/2016/07/16/about/</url>
+      <content type="html"><![CDATA[<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><pre><code>山东专升本知识点整理 是一个免费的专升本知识点wiki，旨在为专升本考生提供一个友好的学习目录，持续更新，请多加关注！
+</code></pre>]]></content>
+      
+        <categories>
+            
+            <category> 关于 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[函数、极限 、连续]]></title>
       <url>/2016/07/16/%E9%AB%98%E6%95%B0%E7%AC%AC%E4%B8%80%E7%AB%A0/</url>
       <content type="html"><![CDATA[<h2 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h2><h3 id="函数的特性"><a href="#函数的特性" class="headerlink" title="函数的特性"></a>函数的特性</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">单调性</div><div class="line">奇偶性</div><div class="line">有界性</div><div class="line">周期性</div></pre></td></tr></table></figure>
@@ -19,26 +34,17 @@
 <h4 id="性质"><a href="#性质" class="headerlink" title="性质"></a>性质</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">有界性</div><div class="line">保号性</div></pre></td></tr></table></figure>
 <h3 id="函数的极限"><a href="#函数的极限" class="headerlink" title="函数的极限"></a>函数的极限</h3><h4 id="定义-1"><a href="#定义-1" class="headerlink" title="定义"></a>定义</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">左右极限都存在，且相等</div></pre></td></tr></table></figure>
 <h4 id="无穷大和无穷小"><a href="#无穷大和无穷小" class="headerlink" title="无穷大和无穷小"></a>无穷大和无穷小</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">无穷大量一定是无界函数， 无界函数不一定是无穷大量</div><div class="line">无穷大和无穷小为倒数关系</div></pre></td></tr></table></figure>
-<h4 id="无穷小的比较"><a href="#无穷小的比较" class="headerlink" title="无穷小的比较"></a>无穷小的比较</h4>]]></content>
+<h4 id="无穷小的比较"><a href="#无穷小的比较" class="headerlink" title="无穷小的比较"></a>无穷小的比较</h4><h4 id="无穷小的性质"><a href="#无穷小的性质" class="headerlink" title="无穷小的性质"></a>无穷小的性质</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">有限个无穷小的和，差，积是无穷小</div><div class="line">有界函数和无穷小额度乘积是无穷小</div></pre></td></tr></table></figure>
+<h4 id="两个重要极限"><a href="#两个重要极限" class="headerlink" title="两个重要极限"></a>两个重要极限</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">夹逼定则</div><div class="line">单调有界原理;单调有界数列必有极限</div></pre></td></tr></table></figure>
+<h2 id="连续"><a href="#连续" class="headerlink" title="连续"></a>连续</h2><h3 id="间断点"><a href="#间断点" class="headerlink" title="间断点"></a>间断点</h3><h4 id="第一类间断点"><a href="#第一类间断点" class="headerlink" title="第一类间断点"></a>第一类间断点</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">左右极限都存在的间断点</div><div class="line">左右极限都存在且相等间断点，称为可去间断点</div><div class="line">左右极限存在但不想等，称为跳跃间断点</div></pre></td></tr></table></figure>
+<h4 id="第二类间断点"><a href="#第二类间断点" class="headerlink" title="第二类间断点"></a>第二类间断点</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">左右极限至少有一个不存在的间断点称为第二类间断点</div><div class="line">常见的第二类间断点：无穷间断点和震荡间断点</div></pre></td></tr></table></figure>
+<h3 id="连续-1"><a href="#连续-1" class="headerlink" title="连续"></a>连续</h3><h4 id="初等函数的连续性"><a href="#初等函数的连续性" class="headerlink" title="初等函数的连续性"></a>初等函数的连续性</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">一切初等函数在其定义区间内都是连续的</div></pre></td></tr></table></figure>
+<h4 id="闭区间上连续函数的性质"><a href="#闭区间上连续函数的性质" class="headerlink" title="闭区间上连续函数的性质"></a>闭区间上连续函数的性质</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">有界，最大值，最小值定理</div><div class="line">介值定理</div><div class="line">零点定理</div></pre></td></tr></table></figure>
+<h2 id="渐近线"><a href="#渐近线" class="headerlink" title="渐近线"></a>渐近线</h2>]]></content>
       
         <categories>
             
             <category> Docs </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[山东专升本知识点整理]]></title>
-      <url>/2016/07/16/about/</url>
-      <content type="html"><![CDATA[<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><pre><code>山东专升本知识点整理 是一个免费的专升本学习工具，旨在为专升本考生提供一个友好的wiki，持续更新，请多加关注！
-</code></pre>]]></content>
-      
-        <categories>
-            
-            <category> 关于 </category>
             
         </categories>
         

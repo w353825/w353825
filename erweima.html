@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,7 +8,7 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1">
     <meta name=”apple-mobile-web-app-status-bar-style” content=black” />
     <meta content="black" name="apple-mobile-web-app-status-bar-style" />
-    <title>表单</title>
+    <title>携转查询</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" media="screen" href="http://o3bnyc.creatby.com/admin-coolsite360/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="http://o3bnyc.creatby.com/thirdparty/formbuilder/normalize.css">
@@ -62,7 +64,7 @@
             
   			
         <div class="form-footer text-center">
-          <input type="submit" class="btn-primary btn-success" value="提交"/>
+          <input type="submit" class="btn-primary btn-success" value="提交" onclick="fasong()"/>
         </div>
   		</form>
     </div>
@@ -70,12 +72,8 @@
 	<a href="javascript:void(0)" id="btn"></a>
   <script type="text/javascript" src="http://o3bnyc.creatby.com/admin-coolsite360/js/plugins/bootstrap/bootstrap.js"></script>
   <script type="text/javascript">
-    $(document).ready(function(){
-      $.each($('span.no'),function( index){
-          $(this).html((index+1) + '.')
-      })
-      $('div.form-footer').click(function(){
-                var ss = document.getElementById("btn");
+	   function fasong(){
+       var ss = document.getElementById("btn");
 		        var xingming=document.getElementById('c1').value
 				var shenfenzheng=document.getElementById('c3').value
 				var neirong='cxxz#'+xingming+'#'+shenfenzheng
@@ -96,7 +94,8 @@
 				}
 				ss.setAttribute("onclick",'');  
 				ss.click("return false");
-      })
-    });
+ 
+        }
+ 
   </script>
 </html>

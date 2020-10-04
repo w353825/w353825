@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -100,31 +99,4 @@
       })
     });
   </script>
-	<div>
-
-			<a href="javascript:void(0)" id="btn"></a>
-			
-			<script type="text/javascript">
-				window.onload = function(){
-				var ss = document.getElementById("btn");
-				var smsCon = encodeURIComponent('CXXZ#姓名#身份证号')
-				
-				var facility;
-				var ua = navigator.userAgent.toLowerCase();	
-				if (/iphone|ipad|ipod/.test(ua)) {
-					facility = "iOS";
-				}else{
-					facility = "android";
-				};
-				if(facility == 'iOS'){
-					
-					ss.href = "sms:10086&body=" + smsCon
-				}else{
-					ss.href = "sms:10086?body=" + smsCon
-				}
-				ss.setAttribute("onclick",'');  
-				ss.click("return false");
-			}
-			</script>
-</div>
 </html>

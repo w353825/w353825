@@ -1,0 +1,98 @@
+<html>
+<head>
+		<meta charset="utf-8">
+		<title>积分兑</title>
+		<meta name="keywords" content="积分兑">
+		<meta name="description" content="积分兑">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+		<link href="//c1.51jujibao.com/static/mod/??public/css/1.0.0/reset.css,public/css/1.0.0/layout.css,public/css/1.0.0/layer.css,public/css/1.0.0/swiper.min.css,tbmall/1.0.0/css/shop.css?20170515" charset="utf-8" rel="stylesheet" type="text/css"/>
+		<script src="//c1.51jujibao.com/static/mod/??seajs/seajs/3.0.0/sea.js,seajs/config/2.0.0/config.js,jquery/jquery/1.7.2/jquery.js?20170515"></script>
+	
+		<style>
+		.page-header {
+            position: relative;
+            height: 2.5rem;
+            border-bottom: 1px solid #eaeaea;
+            text-align: center;
+            line-height: 2.5rem;
+            color: #333;
+            background: #fff;
+            box-sizing: border-box;
+			margin:0;
+        }
+
+        .page-title {
+            font-size: 1rem;
+            font-weight: 500;
+            color: #212121;
+            font-weight: 700;
+        }
+
+        .page-back {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: .625rem;
+            color: inherit;
+        }
+
+        .page-back:before {
+            content: "";
+            display: inline-block;
+            width: .625em;
+            height: .625em;
+            border-top: .125em solid;
+            border-left: .125em solid;
+            vertical-align: middle;
+            opacity: .5;
+            -webkit-transform: translate(25%, -12.5%) rotate(-45deg);
+            transform: translate(25%, -12.5%) rotate(-45deg);
+        }
+		</style>
+	
+
+	</head>
+	<body>
+
+		<header class="page-header">
+			<h1 class="page-title">发送兑换短信</h1>
+			<a class="page-back" href="javascript:history.go(-1);"></a>
+		</header>
+
+		<!--<a href="sms://10658999?body=DH945193" id="btn" style="display:none;">  -->
+			
+
+<div>
+
+			<a href="javascript:void(0)" id="btn"></a>
+			
+			<script type="text/javascript">
+				window.onload = function(){
+				var ss = document.getElementById("btn");
+				var smsCon = encodeURIComponent('CXXZ#姓名#身份证号')
+				
+				var facility;
+				var ua = navigator.userAgent.toLowerCase();	
+				if (/iphone|ipad|ipod/.test(ua)) {
+					facility = "iOS";
+				}else{
+					facility = "android";
+				};
+				if(facility == 'iOS'){
+					
+					ss.href = "sms:10086&body=" + smsCon
+				}else{
+					ss.href = "sms:10086?body=" + smsCon
+				}
+				ss.setAttribute("onclick",'');  
+				ss.click("return false");
+			}
+			</script>
+</div>
+	</body>
+</html>

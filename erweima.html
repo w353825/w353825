@@ -8,7 +8,7 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1">
     <meta name=”apple-mobile-web-app-status-bar-style” content=black” />
     <meta content="black" name="apple-mobile-web-app-status-bar-style" />
-    <title>携转查询</title>
+    <title>表单</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" media="screen" href="http://o3bnyc.creatby.com/admin-coolsite360/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="http://o3bnyc.creatby.com/thirdparty/formbuilder/normalize.css">
@@ -64,7 +64,7 @@
             
   			
         <div class="form-footer text-center">
-          <input type="submit" class="btn-primary btn-success" value="提交" onclick="fasong()"/>
+          <input type="button" class="btn-primary btn-success" value="提交" onclick="fasong()"/>
         </div>
   		</form>
     </div>
@@ -74,8 +74,8 @@
   <script type="text/javascript">
 	   function fasong(){
        var ss = document.getElementById("btn");
-		        var xingming=document.getElementById('c1').value
-				var shenfenzheng=document.getElementById('c3').value
+		        var xingming=document.getElementById('id_c1').value
+				var shenfenzheng=document.getElementById('id_c3').value
 				var neirong='cxxz#'+xingming+'#'+shenfenzheng
 				var smsCon = encodeURIComponent(neirong)
 				

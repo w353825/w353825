@@ -1,127 +1,51 @@
-
 <!DOCTYPE html>
-<html><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
-<title>携转查询</title>
-<style>
-body {
-	height:100%;
-	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#4E94C4), to(#EFF8FF));
-	background-image:linear-gradient(#4E94C4,#EFF8FF);
-	background-image:-moz-linear-gradient(#4E94C4,#EFF8FF);
-	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, EndColorStr='#EFF8FF', StartColorStr='#4E94C4')
-}
-body,html {
-	padding:0;
-	margin:0;
-	font-family:'Helvetica Neue',Helvetica,sans-serif;
-	font-size:14px;
-	color:#517188;
-	text-align:left;
-	background-color:#EFF8FF;
-                height:100%
-}
-a {
-	text-decoration:none;
-	color:#517188
-}
-.inputArea {
-	background:#fff;
-	border:1px solid #628aa5;
-	-webkit-border-radius:5px;
-	border-radius:5px;
-	-webkit-box-shadow:0 1px 5px #acaeaf inset,0px 1px 1px rgba(255,255,255,0.5);
-	box-shadow:0 1px 5px #acaeaf inset,0px 1px 1px rgba(255,255,255,0.5)
-}
-.inputLine {
-	color:#000;
-	padding:7px 10px;
-	clear:both
-}
-.inputLine:first-of-type {
-	border-bottom:1px solid #cfcfcf
-}
-.il {
-	float:left;
-font-size:50px;
-	padding:5px 0
-
-}
-.ir {
-	overflow:hidden;
-	text-align:left;
-	padding:0;
-                height:100%
-}
-.ir input {
-	-webkit-appearance:none;
-	background:none;
-	width:99%;
-	border:0;
-	font-size:50px;
-	vertical-align:middle;
-	border:solid 1px #ccc;
-	margin:0;
-	padding:5px 0;
-                
-}
-
-.ir button{
-	-webkit-appearance:none;
-	background:none;
-	width:99%;
-                height: auto;
-	border:0;
-	font-size:50px;
-	vertical-align:middle;
-	border:solid 1px #ccc;
-	margin:0;
-	padding:5px 0
-}
-</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>取号</title>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 </head>
 <body>
- 
- 
- 
-<div class="inputArea">
-    <div class="inputLine">
-        <div class="il">姓名：</div>
-        <div class="ir"><input id="id_c1" type="text" name="uname" value="" placeholder="请输入姓名" autocapitalize="off" autocomplete="on" maxlength="3"></div>
-    </div>
-    <div class="inputLine">
-        <div class="il">身份证：</div>
-        <div class="ir"><input id="id_c3"  name="number" value="" placeholder="请输入身份证"></div>
-    </div>
- <div class="ir"><button type="button" onclick="fasong()">点此发送</button></div>
-</div>
-<a href="javascript:void(0)" id="btn"></a>
- <script type="text/javascript">
-	   function fasong(){
-                                                                var ss = document.getElementById("btn");
-		                                var xingming=document.getElementById('id_c1').value
-				var shenfenzheng=document.getElementById('id_c3').value
-				var neirong='cxxz#'+xingming+'#'+shenfenzheng
-				var smsCon = encodeURIComponent(neirong)
-				
-				var facility;
-				var ua = navigator.userAgent.toLowerCase();	
-				if (/iphone|ipad|ipod/.test(ua)) {
-					facility = "iOS";
-				}else{
-					facility = "android";
-				};
-				if(facility == 'iOS'){
-					
-					ss.href = "sms:10086&body=" + smsCon
-				}else{
-					ss.href = "sms:10086?body=" + smsCon
-				}
-				ss.setAttribute("onclick",'');  
-				ss.click("return false");
- 
+<h1>取号</h1>
+<input type="button" value="在线取号" id='btnAjax'>
+
+<script type="text/javascript">
+
+$.ajax({
+        url:'https://m.client.10010.com/mobileService/customer/toCallNumber.htm?',
+        data:{deviceId:deviceId(),hallId:'17b0cn0'},
+        type:("POST"),
+        crossDomain:true,
+        xhrFields:{
+            withCredentials:true
+        },
+        success:function(list){
+		    console.log(list)
+            if(list.Result == true){               
+                 if (_callback){
+                    var func = TM[_callback];
+                    if (typeof func == "function") {
+                        func(list.Data);
+                    }
+                 }
+            }else{
+                if(list.Msg){
+                    alert(list.Msg);
+                }else{
+                    alert("操作失败");
+                }
+            }
+        },
+        error:function(){
+            alert("网络错误，请稍后重试");
         }
- 
-  </script>
+    });	
+
+function deviceId() {
+  e=Math.floor(9e6 * Math.random()) + 1e6
+  t = (new Date).getTime()
+  return e+""+t 
+}
+</script>
 </body>
+</html>
